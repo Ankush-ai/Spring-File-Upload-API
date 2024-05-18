@@ -1,0 +1,10 @@
+This file contains the API end points for consuming rest api and for the ease of the user
+
+1.RequestMapping("/api/v1")
+2.UploadImage/PostMapping("/upload")
+2.DownloadImage/GetMapping("/download/{filename}")
+
+Example useage 
+Post Request : http://localhodt:8080/api/v1/upload
+
+Get Request  : http://localhodt:8080/api/v1/download/{filename
